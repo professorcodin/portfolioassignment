@@ -1,0 +1,148 @@
+/* ---------------------------------------------------------------------------------
+GENERAL
+--------------------------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/* .row{
+    width: 1140px;
+    height: 100vh;
+    margin: 0px auto;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* ---------------------------------------------------------------------------------
+HEADER
+--------------------------------------------------------------------------------- */
+
+header{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.685)) , url('img/bg\ image\ 2.jpg');
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh ;
+}
+
+.logo{
+    color: white;
+    position: absolute;
+    text-align: left;
+    padding: 40px 0px 0px 42px;
+    
+}
+
+.nav-list{
+    text-align: right;
+}
+
+.nav-list li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 300px;
+    margin-top: 50px ;
+    margin-right: 50px;
+    margin: 50px 100px 0px 150px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px 10px 15px ;
+    border-bottom:1px solid rgb(72, 255, 0);
+}
+
+.nav-list li a:hover{
+    color: rgb(72, 255, 0);
+    border-bottom:1px solid rgba(0, 214, 0, 0.514);
+}
+
+.my-img{
+    height: 300px;
+    width: auto;
+    margin: 12% 0 0 43%;
+    border-radius: 100px;
+    border: thick double rgb(255, 255, 255);
+}
+.name{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    
+}
+
+#h1-fp{
+color: rgb(72, 255, 0);
+}
+
+/* ---------------------------------------------------------------------------------
+SECTION
+--------------------------------------------------------------------------------- */
+
+section{
+    height: 100vh;
+}
+
+#about-h1{
+    text-align: center;
+    color: rgb(72, 255, 0);
+    font-size: 37px;
+    padding-top: 80px;
+}
+
+.section-img{
+    height: 400px;
+    width: auto;
+    margin-left: 10%;
+    margin-top: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-data{
+    width: 50%;
+    height: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin: 7% 12% 0 0;
+}
+
+.about-data-h1{
+    color: rgb(72, 255, 0);
+    padding: 30px 15px 30px 15px;
+}
+.about-intro{
+    margin: 0px 15px 0 15px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.about-intro-p2{
+    margin: 0px 15px 0 15px;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+/* ---------------------------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------------------------- */
+
+footer{
+    height: 120px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    padding-top: 50px;
+}
